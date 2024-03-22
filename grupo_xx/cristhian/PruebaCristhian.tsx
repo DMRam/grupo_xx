@@ -1,5 +1,5 @@
 import React = require("react");
 import { Text } from "react-native";
 
-<Text> Prueba del Branch de Cristhian, saludos! </Text>
+<Text><h1>Prueba del Branch de Cristhian, saludos!</h1>  </Text>
 
