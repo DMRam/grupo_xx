@@ -1,11 +1,12 @@
 import React from 'react'
-import { SafeAreaView } from './node_modules/react-native/types/index'
+import { SafeAreaView } from 'react-native'
+import { TestComponent } from './src/components/TestComponent'
 
 export const App = () => {
   return (
     <SafeAreaView>
 
-      
+      <TestComponent />
     </SafeAreaView>
   )
 }

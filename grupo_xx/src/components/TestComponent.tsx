@@ -1,5 +1,6 @@
-import React from 'react'
-import { Text, View } from '../../node_modules/react-native/types/index'
+import React from "react"
+import { Text, View } from "react-native"
+
 
 export const TestComponent = () => {
     return (
