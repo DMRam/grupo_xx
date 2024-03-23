@@ -6,7 +6,7 @@ export const TestComponent = () => {
 
     const [colorTest, setColorTest] = useState<string>("red")
 
-    const funcion = () => {
+    const onChangeColorToBlue = () => {
 
         setColorTest("blue")
     }
@@ -19,13 +19,8 @@ export const TestComponent = () => {
 
                 Test
             </Text>
-            <Text style={styles.titleII}>
-                Test II
 
-                Test II
-            </Text>
-
-            <Button onPress={funcion} title="Click me" />
+            <Button onPress={onChangeColorToBlue} title="Click me" />
 
         </SafeAreaView>
     )
